@@ -3,6 +3,10 @@
       "type": "fileUpload",
       "path": "/home/app/.pocket/config/genesis.json"
     },
+    "config": {
+      "type": "fileUpload",
+      "path": "/home/app/.pocket/config/config.json"
+    },
     "chains": {
       "type": "environment",
       "path": "POCKET_CORE_CHAINS"

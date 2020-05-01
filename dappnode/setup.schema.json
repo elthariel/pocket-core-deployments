@@ -8,6 +8,12 @@
         "title": "Genesis",
         "description": " The genesis.json is shared amongst all nodes and indicates the necessary information to start syncing the network (Learn more here: https://docs.pokt.network/docs/service-node-setup-binary#section--connecting-to-the-current-network-)"
       },
+      "config": {
+        "type": "string",
+        "format": "data-url",
+        "title": "Config",
+        "description": " The config.json is the main configuration for your node (Learn more here: https://docs.pokt.network/docs/service-node-setup-binary#section--connecting-to-the-current-network-)"
+      },
       "chains": {
         "type": "string",
         "title": "Chains",
